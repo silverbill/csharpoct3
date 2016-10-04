@@ -20,11 +20,13 @@ namespace helloworld
 
             Console.WriteLine(howdy);
             Console.ReadLine();
-            Console.WriteLine("Columbus saild the world in: " + columbus);
-            Console.WriteLine("It is " + myDog + "that I have a dog at home");
-            Console.WriteLine("Today is " + date);
-            Console.WriteLine("I spent $" + myMoney + "on a cheeseburger today.");
+            Console.WriteLine("Columbus sailed the world in: " + columbus + ".");
+            Console.WriteLine("It is " + myDog + " that I have a dog at home.");
+            Console.WriteLine("Today is " + date + ".");
+            Console.WriteLine("I spent $" + myMoney + " on a cheeseburger today.");
             Console.WriteLine(myChar + " marks the spot!");
+
+            Console.ReadLine();
         }
     }
     
